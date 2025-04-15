@@ -1,4 +1,16 @@
 ## **Notes**
+### **Week 1***
+Goal 
+1) from RNA sequencing, produce a model that tells me if there is TP53 mutation or not.
+2) specify which type of mutation
+
+We need to have mutation data, sequencing data and type of mutation.
+
+Question 1: is TP53 mutation affecting the RNA at all? 
+
+Question 2: is the type of mutation in TP53 affecting the RNA sequencing or not?
+
+### **Week 2**
 We have RNA and DNA sequences. The cell has the nucleus and DNA from nucleus is transcribed into RNA, which procesess into proteins (not all RNA become proteins but we don't care). 
 
 Transcription Factors are proteins that work inside the nucleus. They bind to the DNA and start transcription. 
