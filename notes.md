@@ -22,3 +22,5 @@ TP53 can be white type or muted. Since it triggers the transcription of many RNA
 We should use the databases where we have the DNA / RNA sequences already processed (not raw data) where we have whether the gene is mutated or not. 
 
 First task is binary classification (whether the gene is mutated or not). After this, we need to predict also the type of mutation. When we get to this second task we can look online and we will see that there are databases for different types of mutations.
+
+CCLE: cleaner data, while TCGA is real data so noisy -> we need to compare the performance, which models we use...
