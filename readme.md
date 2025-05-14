@@ -10,8 +10,8 @@ The second dataset was constructed from datasets of different tumor types from T
 The repository is structured as follows:
 - in results_ccle and results_multiclass we saved plots from training of models, EDA and outlier detection
 - ccle_binary_classification.ipynb contains exploratory data analysis on CCLE data, PCA, clustering, outliers detection and finally the classification model: we first tried several models, then performed hyperparameter tuning on the one that worked better. The performance of the model on the whole data was then confronted to the performance on target genes only and on highly differential genes
+- ccle_multiclass_classification.ipynb contains prediction of mutation type on CCLE cell lines
 - DEGs_filtered_sorted.csv contains the output of differential expression
 - differential_expression_analysis.ipynb contain the analysis on which genes vary the most between mutated and non mutated cells
-- multiclass.ipynb contains prediction of mutation type on CCLE cell lines
 - tcga_binary_classification.ipynb contains binary classification on TCGA data
 - tcga_filt.csv is the final output of the thorough cleaning performed on TCGA data
