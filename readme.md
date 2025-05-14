@@ -15,4 +15,6 @@ The repository is structured as follows:
 - *differential_expression_analysis.ipynb* contain the analysis on which genes vary the most between mutated and non mutated cells
 - *tcga_binary_classification.ipynb* contains binary classification on TCGA data
 - *tcga_multiclass_classification.ipynb* prediction of mutation type on TCGA cell lines
+- *tcga_data_loading.ipynb* contains the script to load and create the final dataframe of TCGA cell lines
 - *tcga_filt.csv* is the final output of the thorough cleaning performed on TCGA data
+- *tcga_eda.ipynb* contains the exploratory analysis performed on TCGA data
